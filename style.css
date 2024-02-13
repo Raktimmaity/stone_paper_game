@@ -1,0 +1,190 @@
+body{
+    background: linear-gradient(to right, #43CBFF 10%, #9708CC 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    /* background-image: linear-gradient(135deg, #F067B4  10%, #81FFEF 100%, ); */
+    margin: auto;
+    height: 12cm;
+    padding: 10px;
+    margin-top: 20px;
+    width: 12cm;
+    justify-content:left;
+    margin-left: 180px;
+    box-shadow: black 1px 44px 44px;
+    border-radius: 20px;
+}
+
+.cont{
+    /* background-image: linear-gradient(135deg, #F067B4  10%, #81FFEF 100%, ); */
+    margin: auto;
+    height: 12cm;
+    padding: 10px;
+    margin-top: 100px;
+    width: 12cm;
+    justify-content:left;
+    margin-left: 50px;
+    box-shadow: black 1px 44px 44px;
+    border-radius: 20px;
+    display: flex;
+    margin-top: -12.4cm;
+    padding-left: 20px;
+    margin-left: 20cm;
+}
+
+.title{
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(255, 149, 167) 10%, white 100%);
+    border-radius: 5px;
+    box-shadow: black 1px 5px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: black 1px 1px 1px;
+    letter-spacing: 2px;
+}
+
+.title1{
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(255, 149, 167) 10%, white 100%);
+    border-radius: 5px;
+    box-shadow: black 1px 5px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: black 1px 1px 1px;
+    letter-spacing: 2px;
+    height: 1.5rem;
+    width: 1500cm;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.list ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.msg{
+    /* background-color: transparent; */
+    /* box-shadow: black 1px 5px 10px; */
+    width: 500px;
+    border-top-left-radius: 10px;
+    text-shadow: black 1px 5px 8px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.txt{
+    text-align: center;
+}
+
+#ip{
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    background: rgb(141, 179, 236) ;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: x-large;
+    box-shadow: black 1px 15px 30px;
+    margin-top: 30px;
+}
+
+.but{
+    text-align: center;
+}
+
+#rock, #paper, #sizer{
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    background-image: linear-gradient(135deg, #69FF97 10%, #0dadbe 100%);
+    border-color: rgb(163, 10, 130);
+    box-shadow: black 1px 15px 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#rock, #paper, #sizer:hover{
+    background-image: linear-gradient(135deg, #00e4ff 10%, #69ff97 100%);
+}
+#btn2{
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 40px;
+    background-image: linear-gradient(135deg, #69FF97 10%, #0dadbe 100%);
+    border-color: rgb(163, 10, 130);
+    box-shadow: black 1px 15px 30px;
+    cursor: pointer;
+}
+
+#btn2:hover{
+    background-image: linear-gradient(135deg, #00e4ff 10%, #69ff97 100%);
+}
+.op{
+    width: 500px;
+    border-top-left-radius: 10px;
+    text-shadow: rgb(0, 4, 250) 1px 5px 8px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: -450px;
+    font-size: xx-large;
+    margin-left: 20cm;
+    font-weight: bolder;
+    
+}
+
+.main{
+    display:inline-block
+}
+
+
+#u-o, #c-o, #r{
+    background-color: transparent;
+    box-shadow: black 1px 15px 30px;
+    width: 12.8cm;
+}
+
+.doc{
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+#butn{
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 40px;
+    background-image: linear-gradient(135deg, #69FF97 10%, #0dadbe 100%);
+    border-color: rgb(163, 10, 130);
+    box-shadow: black 1px 15px 30px;
+    cursor: pointer;
+    
+}
+
+#butn:hover{
+    background-image: linear-gradient(135deg, #00e4ff 10%, #69ff97 100%);
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width: 1290px){
+    .container{
+        margin-left: 50px;
+    }
+    .boxes{
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 1199px){
+    .boxes{
+        flex-direction: column;
+    }
+}
